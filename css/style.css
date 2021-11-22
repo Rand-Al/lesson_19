@@ -2053,7 +2053,11 @@ body {
   }
 
   .form-footer__button {
-    margin-top: 3px;
+    margin-top: 10px;
+  }
+
+  .form-footer__button {
+    margin-bottom: 10px;
   }
 }
 
@@ -2154,6 +2158,10 @@ body {
     margin: 0 auto;
   }
 
+  .body-footer__item {
+    text-align: center;
+  }
+
   .body-footer__item:not(:last-child) {
     margin-bottom: 24px;
   }
@@ -2225,6 +2233,10 @@ body {
   .form-footer__button {
     margin-top: 20px;
   }
+
+  .form-footer__button {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 863.98px) and (min-width: 20em) and (max-width: 74.375em) {
@@ -2237,7 +2249,11 @@ body {
   }
 
   .form-footer__button {
-    margin-top: calc(3px + 17 * (((100vw - 320px)) / ((870))));
+    margin-top: calc(10px + 10 * (((100vw - 320px)) / ((870))));
+  }
+
+  .form-footer__button {
+    margin-bottom: calc(10px + 10 * (((100vw - 320px)) / ((870))));
   }
 }
 
